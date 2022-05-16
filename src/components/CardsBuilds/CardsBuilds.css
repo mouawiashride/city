@@ -1,0 +1,57 @@
+
+.cardSBuildsRow .card 
+{
+    border-radius: 30px;
+    overflow: hidden;
+    transition:box-shadow 500ms linear ;
+}
+
+.cardSBuildsRow .card:hover
+{
+    box-shadow: -1px 1px 42px -3px #006699;
+-webkit-box-shadow: -1px 1px 42px -3px #006699;
+-moz-box-shadow: -1px 1px 42px -3px #006699;
+}
+
+.cardSBuildsRow .card .card-body
+{
+    margin: 10px 0px 0px;
+
+transition:background-color 500ms linear ;
+}
+
+.cardSBuildsRow .card .card-title,.cardSBuildsRow .card .card-text
+{
+    transition:background-color 500ms linear,color 500ms linear ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cardSBuildsRow .card:hover .card-body
+{
+    background-color:#006699 ;
+}
+
+.cardSBuildsRow .card:hover .card-title
+{
+    background-color:#048fd4ad ;
+}
+.cardSBuildsRow .card:hover .card-text
+{
+    background-color:#ffffff ;
+    color:#00aaff !important ;
+}
+.cardSBuildsRow .card:hover .card-title 
+{
+    
+    color: white !important;
+}
+.cardSBuildsRow
+{
+    text-align: center;
+}
+
+.cardSBuildsRow .card img 
+{
+    height: 300px;
+    object-fit: cover;
+}

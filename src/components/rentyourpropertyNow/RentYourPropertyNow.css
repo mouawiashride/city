@@ -1,0 +1,42 @@
+.RentYourPropertyNowTitle
+{
+    color: #2287AD !important;
+}
+
+
+
+  .shot3,.shot2,.shot1  {
+    transition: transform .5s linear,left .5s linear,top .5s linear;
+    
+  }
+  
+
+  .shot1:hover {
+    transform: scale(1.2);
+    z-index: 50;
+    
+  }
+   .img-2-container:hover .shot2{
+    transform: scale(4);
+    right: 100%;
+    z-index: 50;
+  }
+   .shot3:hover{
+    transform: scale(2.2);
+    bottom: 100%;
+  }
+
+
+  .shot2
+  {
+      right: 20%;
+      top: -30%;
+      border-radius: 10px;
+  }
+
+  .shot3
+  {
+      left: -50%;
+      top: -75%;
+  }
+

@@ -1,0 +1,42 @@
+.sendtousbutton
+{
+    background-color:#0177A5 !important ;
+    color: white !important;
+}
+
+
+
+@media screen and (max-width: 767px){   
+    .telephoneimg
+    {
+        width:70%;
+        right: -50%;
+        top: -20%;
+    }
+    }
+    
+    @media screen and (min-width: 768px) {      
+     
+        .telephoneimg
+    {
+        width:60%;
+        right: -30%;
+        top: -40%;
+    }
+    } 
+    @media (min-width: 992px){      
+     
+        .telephoneimg
+    {
+        width:500px;
+        right: -200px;
+        top: -40%;
+    }
+    
+    }
+    @media (min-width: 1200px) {    
+        .telephoneimg
+        {
+            width:500px;
+        }
+    }

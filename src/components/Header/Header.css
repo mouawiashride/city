@@ -1,0 +1,162 @@
+
+.mainnav
+{
+background-color: white !important;
+}
+
+
+.mainnav  .navbar-toggler-icon
+{
+ 
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 102, 153, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e") !important;
+}
+.mainnav .navbar-toggler
+{
+    border:1px solid #006699 !important;
+
+}
+.navbar-toggler:focus
+{
+    box-shadow: 8px 4px 135px -12px rgb(0, 102, 153) !important;
+    -webkit-box-shadow: 8px 4px 135px -12px #006699 !important;
+    -moz-box-shadow: 8px 4px 135px -12px #006699 !important;
+}
+
+
+@media screen and (max-width: 767px){   
+.logo-img
+{
+    width: 80px;
+    height: 60px;
+}
+}
+
+@media screen and (min-width: 768px) {      
+ 
+    .logo-img
+{
+    width: 120px;
+    height: 100px;
+}
+} 
+@media (min-width: 992px){      
+ 
+    .logo-img
+{
+    width: 150px;
+    height: 140px;
+}
+
+}
+@media (min-width: 1200px) {    
+    .logo-img
+    {
+        width: 155px;
+        height: auto;
+    }
+}
+
+
+
+/* style navbar site */
+
+
+.navbar-site ul li a
+{
+    transition: background-color 500ms linear,color 500ms linear;
+} 
+
+
+.navbar-site ul li a.active 
+{
+color: #0177A4 !important;
+}
+
+.navbar-site ul li a:hover 
+{
+    background-color: #006699 !important;
+    color: #0099cc !important;
+} 
+
+.rentnumber
+{
+    color:#00b7ff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* edit arrow dropdown  */
+.dropdown-toggle
+{
+    border:1px solid #0000000e; 
+    border-radius: 50%;
+}
+
+.dropdown-toggle:hover 
+{
+    border:1px solid #00b7ff;
+    border-radius: 50%;
+    
+}
+.dropdown-toggle::before {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+/* reset arrow dropdown  */
+.dropdown-toggle::after
+{
+    display:none !important
+}
+
+/* text align  anchore of  user and notification list */
+.notification  ul li > a , .user ul li > a
+{
+    text-align: right ;
+    border-bottom:1px solid #006699;
+}
+
+.notification  ul li:last-child  a:last-child , .user ul li:last-child  a:last-child
+{
+   
+    border-bottom:none;
+}
+
+.notification  ul li > a:hover , .user ul li > a:hover
+{
+    text-align: right !important ;
+    border-bottom:1px solid #006699;
+}

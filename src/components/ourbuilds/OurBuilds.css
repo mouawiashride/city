@@ -1,0 +1,88 @@
+.mySwiper  img,.mySwiper,.swiper-slide
+{
+    border-radius: 50px !important;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+.carousel-inner
+{
+    border-radius: 40px !important;
+}
+
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: none;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #1ca0ff9f;
+  background-image: none;
+  background-color: #0074c79f;
+  position: absolute !important;
+}
+
+.carousel-control-prev-icon
+{
+    left:-50px
+}
+.carousel-control-next-icon
+{
+    right:-50px
+}
+
+
+.carousel-indicators
+{
+    top:  100%;
+}
+
+
+
+.carousel-indicators button.active 
+{
+    background-color: #0074c7e5;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50% !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #0074c7e5 !important;
+}
+
+
+
+
+
+
+
+
+.video-how-to-use-site .video-container
+{
+    border: 2px solid #0074c7e5;
+    padding: 2px ;
+    border-radius: 20px;
+    transition:border 500ms linear,box-shadow 500ms linear  ;
+}
+.video-how-to-use-site:hover .video-container
+{
+ 
+    border: 2px solid rgba(0, 149, 255, 0.898);
+    box-shadow: 2px 4px 43px 1px rgba(0,149,255,0.88);
+-webkit-box-shadow: 2px 4px 43px 1px rgba(0,149,255,0.88);
+-moz-box-shadow: 2px 4px 43px 1px rgba(0,149,255,0.88);
+}

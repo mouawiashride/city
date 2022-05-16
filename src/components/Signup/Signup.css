@@ -1,0 +1,34 @@
+.createaccountnow
+{
+    background-color:#0177A5 !important ;
+    color: white !important;
+}
+
+.notHaveAccountLoginNow
+{
+    background-color:#0177A5 !important ;
+    color: white !important;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+}
+.notHaveAccountLoginNow , .notHaveAccountLoginNow a
+{
+    transition: background-color 800ms linear,color  800ms linear;
+}
+.notHaveAccountLoginNow > a 
+{
+    color:#dcf5ff;
+    border-radius: 20px ;
+    padding: 10px;
+}
+.notHaveAccountLoginNow:hover
+{
+    background-color: transparent !important;
+}
+.notHaveAccountLoginNow:hover a 
+{
+    color :#00b7ff !important;
+    background-color: #004f6e;
+}

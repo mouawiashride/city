@@ -1,0 +1,29 @@
+.button
+{
+    background-color:#0177A5 !important ;
+    color: white !important;
+}
+.create-your-acount-now
+{
+    transition:background-color 1000ms linear !important;
+}
+.create-your-acount-now:hover 
+{
+    background-color: white !important;
+}
+
+
+.create-your-acount-now  a
+{
+    transition:background-color 1000ms linear,color 1000ms linear ;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+  
+}
+
+.create-your-acount-now:hover  a 
+{
+    color: #00b7ff;
+    background-color:#0177A5 !important ;
+}
